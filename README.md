@@ -8,19 +8,19 @@ A Test DSL based on ScalaTest and ScalaZ.
 This project provide an DSL based on [Free monads](http://eed3si9n.com/learning-scalaz/Free+Monad.html) of scalaZ.
 It´s using also scalaTest framework to provide the sites and scenarios.
 
-* **Use**
+#Use
 
-    * clone the project
+* clone the project
 ```
 git clone https://github.com/politrons/TestDSL.git
 ```
-    * Run the test example
+* Run the test example
 ```
 sbt test
 
 ```
 
-* **Create your own Test and Interpreter**
+#Create your own Test and Interpreter**
 
 Free monads are a bunch of algebras that help us to glue monads and then create those pipelines that can be used
 as DSLs.
