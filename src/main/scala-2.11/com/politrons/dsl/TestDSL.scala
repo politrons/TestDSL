@@ -9,12 +9,17 @@ import scalaz.~>
   *
   * This is the main class of the test framework. Using scalaz we create a DSL where the client can use
   * the common TDD components Given, When, Then.
-  * The implementation of this DSL is using the interpreter scenario which apply the logic of the DSL
+  *
+  * Thanks to this DSL we can separate structure from behaviour of our application.
+  *
+  * The implementation of this DSL is using the interpreter scenario which apply the logic of the DSL.
+  * That interpreter must be implemented by the consumer of the DSL.
   */
 trait TestDSL extends FeatureSpecLike with Actions {
 
   /**
-    * Using Free monads we need to provide an interpreter that match the algebras used.
+    * Using Free monads we need to provide an interpreter that match the algebras used [Action].
+    *
     * Here we define that Action type is transformed in Id which is a generic.
     *
     * @return Any possible value defined in the algebra Action´s
@@ -25,6 +30,13 @@ trait TestDSL extends FeatureSpecLike with Actions {
     }
   }
 
+  /**
+    * This interpreter receive the action and value from the Algebra, and is the moment where we give
+    * the DSL behave. Using this aproach we can reuse the same DSL with many different interpreter implementations.
+    * @param action of the Algebra, normally used to detect which action of the DSL just happen
+    * @param any value passed in the pipeline of the DSL
+    * @return Any value that the interpreter want to propagate through the pipeline.
+    */
   def interpreter(action: String, any: Any): Any
 
 
