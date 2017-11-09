@@ -5,8 +5,8 @@ Author  Pablo Perez Garcia
 
 A Test DSL based on ScalaTest and ScalaZ.
 
-This project provide an DSL based on [Free monads](http://eed3si9n.com/learning-scalaz/Free+Monad.html) of scalaZ.
-It´s using also scalaTest framework to provide the sites and scenarios.
+This project provide a DSL based on [Free monads](http://eed3si9n.com/learning-scalaz/Free+Monad.html) of [ScalaZ](https://github.com/scalaz/scalaz).
+It´s using also [ScalaTest](http://www.scalatest.org/) framework to provide the sites and scenarios.
 
 ## Use
 
@@ -20,12 +20,13 @@ sbt test
 
 ```
 
-## Create your own Test and Interpreter**
+## Create your own Test and Interpreter
 
 Free monads are a bunch of algebras that help us to glue monads and then create those pipelines that can be used
 as DSLs.
-Free monads are meant to be used to separate strucuture and behave on your program, that´ why your DSL always need
-an interpreter that understand and give behave of the strucutre of the DSL.
+
+Free monads are meant to be used to separate strucuture and behave on your program, that´s why your DSL always need
+an interpreter that understand and give behave of the strucutre of it.
 
 In our example we create a test that is using the DSL to test a shopping basket.
 
@@ -43,6 +44,10 @@ As you can expect giving this DSL we are not doing nothing. Just a glue to conta
 
 In order to give a behave to this strucutre we need to implement our own interpreter.
 
+The interpreter it should be the bussines logic of your application. In this case all the functionality related with shopping basket.
+
+Now we can give our DSL a behave.
+
 ```
   override def interpreter(action: String, any: Any): Any = {
     action match {
@@ -55,7 +60,6 @@ In order to give a behave to this strucutre we need to implement our own interpr
   }
 
 ```
-Now we can give our DSL a behave.
 
 
 
