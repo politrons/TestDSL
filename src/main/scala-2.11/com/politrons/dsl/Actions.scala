@@ -11,7 +11,7 @@ import scalaz._
   */
 trait Actions extends Algebras {
 
-  def Given(action: String, any: Any): ActionMonad[Any] ={
+  def Given(action: Any, any: Any): ActionMonad[Any] ={
     liftF[Action, Any](_Action(action, any))
   }
 
