@@ -31,7 +31,7 @@ class ExampleIT extends TestDSL {
     * @param anyBasket    Data user send from previous step
     * @return
     */
-  override def interpreter(action: String, anyBasket: Any): Any = {
+  override def interpreter(action: Any, anyBasket: Any): Any = {
     action match {
       case "an empty basket" => anyBasket
       case ADD_PRODUCT(product) => addProduct(anyBasket, product)

@@ -37,7 +37,7 @@ trait TestDSL extends FeatureSpecLike with Actions {
     * @param any value passed in the pipeline of the DSL
     * @return Any value that the interpreter want to propagate through the pipeline.
     */
-  def interpreter(action: String, any: Any): Any
+  def interpreter(action: Any, any: Any): Any
 
 
 }

@@ -17,6 +17,6 @@ trait Algebras {
 
   type ActionMonad[A] = Free[Action, A]
 
-  case class _Action(action: String, any: Any) extends Action[Any]
+  case class _Action(action: Any, any: Any) extends Action[Any]
 
 }

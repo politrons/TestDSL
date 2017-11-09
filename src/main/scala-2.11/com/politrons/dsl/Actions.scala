@@ -17,19 +17,19 @@ trait Actions extends Algebras {
 
   implicit class customFree(free: ActionMonad[Any]) {
 
-    def When(action: String): ActionMonad[Any] = {
+    def When(action: Any): ActionMonad[Any] = {
       free.flatMap(any =>liftF[Action, Any](_Action(action, any)))
     }
 
-    def Then(action: String): ActionMonad[Any] = {
+    def Then(action: Any): ActionMonad[Any] = {
       free.flatMap(any => liftF[Action, Any](_Action(action, any)))
     }
 
-    def And(action: String): ActionMonad[Any] = {
+    def And(action: Any): ActionMonad[Any] = {
       free.flatMap(any => liftF[Action, Any](_Action(action, any)))
     }
 
-    def And(action: String, newAny: Any): ActionMonad[Any] ={
+    def And(action: Any, newAny: Any): ActionMonad[Any] ={
       free.flatMap(any => liftF[Action, Any](_Action(action, newAny)))
     }
 
