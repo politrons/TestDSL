@@ -81,8 +81,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -1011,7 +1011,7 @@
       <updated>1509907611839</updated>
       <workItem from="1509907621294" duration="1553000" />
       <workItem from="1509986867946" duration="1297000" />
-      <workItem from="1510224733348" duration="2832000" />
+      <workItem from="1510224733348" duration="2882000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1509907943718</created>
@@ -1048,7 +1048,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510227856940</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="readme">
+      <created>1510228222040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1510228222040</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1057,7 +1064,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5682000" />
+    <option name="totallyTimeSpent" value="5732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1197,8 +1204,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>

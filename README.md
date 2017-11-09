@@ -5,7 +5,7 @@ Author  Pablo Perez Garcia
 
 A Test DSL based on ScalaTest and ScalaZ.
 
-This project provide a DSL based on [Free monads](http://eed3si9n.com/learning-scalaz/Free+Monad.html) of [ScalaZ](https://github.com/scalaz/scalaz).
+This open souce project provide a DSL based on [Free monads](http://eed3si9n.com/learning-scalaz/Free+Monad.html) of [ScalaZ](https://github.com/scalaz/scalaz).
 It´s using also [ScalaTest](http://www.scalatest.org/) framework to provide the sites and scenarios.
 
 ## Use
