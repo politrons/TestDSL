@@ -28,36 +28,36 @@ class ExampleIT extends TestDSL {
     * Method to make an action over the DSL action message that we use
     *
     * @param action The message user want to make
-    * @param any    Data user send from previous step
+    * @param anyBasket    Data user send from previous step
     * @return
     */
-  override def interpreter(action: String, any: Any): Any = {
+  override def interpreter(action: String, anyBasket: Any): Any = {
     action match {
-      case "an empty basket" => any
-      case ADD_PRODUCT(product) => addProduct(any, product)
-      case REMOVE_PRODUCT(product) => removeProduct(any, product)
-      case NUMBER_OF_PRODUCTS(numberOfProducts) => checkNumberOfProducts(any, numberOfProducts)
+      case "an empty basket" => anyBasket
+      case ADD_PRODUCT(product) => addProduct(anyBasket, product)
+      case REMOVE_PRODUCT(product) => removeProduct(anyBasket, product)
+      case NUMBER_OF_PRODUCTS(numberOfProducts) => checkNumberOfProducts(anyBasket, numberOfProducts)
       case _ => throw new RuntimeException(s"Error action not controlled")
     }
   }
 
-  private def checkNumberOfProducts(any: Any, numberOfProducts: String): Any = {
-    assert(numberOfProducts.toInt == getBasket(any).products.length)
-    any
+  private def checkNumberOfProducts(anyBasket: Any, numberOfProducts: String): Any = {
+    assert(numberOfProducts.toInt == getBasket(anyBasket).products.length)
+    anyBasket
   }
 
-  private def addProduct(any: Any, product: String): Basket = {
-    val basket = getBasket(any)
+  private def addProduct(anyBasket: Any, product: String): Basket = {
+    val basket = getBasket(anyBasket)
     basket.copy(products = basket.products ++ List(product))
   }
 
-  private def removeProduct(any: Any, newProduct: String): Basket = {
-    val basket = getBasket(any)
+  private def removeProduct(anyBasket: Any, newProduct: String): Basket = {
+    val basket = getBasket(anyBasket)
     basket.copy(products = basket.products.filter(product => product != newProduct))
   }
 
-  private def getBasket(any: Any) = {
-    any.asInstanceOf[Basket]
+  private def getBasket(anyBasket: Any) = {
+    anyBasket.asInstanceOf[Basket]
   }
 
   val ADD_PRODUCT: Regex = s"I add product '(.*)'".r

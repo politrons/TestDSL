@@ -48,12 +48,12 @@ The interpreter it should be the bussines logic of your application. In this cas
 Now we can give our DSL a behave.
 
 ```
-  override def interpreter(action: String, any: Any): Any = {
+  override def interpreter(action: String, anyBasket: Any): Any = {
     action match {
-      case "an empty basket" => any
-      case ADD_PRODUCT(product) => addProduct(any, product)
-      case REMOVE_PRODUCT(product) => removeProduct(any, product)
-      case NUMBER_OF_PRODUCTS(numberOfProducts) => checkNumberOfProducts(any, numberOfProducts)
+      case "an empty basket" => anyBasket
+      case ADD_PRODUCT(product) => addProduct(anyBasket, product)
+      case REMOVE_PRODUCT(product) => removeProduct(anyBasket, product)
+      case NUMBER_OF_PRODUCTS(numberOfProducts) => checkNumberOfProducts(anyBasket, numberOfProducts)
       case _ => throw new RuntimeException(s"Error action not controlled")
     }
   }
