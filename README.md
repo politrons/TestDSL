@@ -60,5 +60,11 @@ Now we can give our DSL a behave.
 
 ```
 
+Finally to run our pipeline to be used by the interpreter we need to add the run at the end of the pipeline.
+
+```
+runScenario
+``
+
 
 
