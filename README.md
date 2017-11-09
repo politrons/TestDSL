@@ -22,8 +22,7 @@ sbt test
 
 ## Create your own Test and Interpreter
 
-Free monads are a bunch of algebras that help us to glue monads and then create those pipelines that can be used
-as DSLs.
+Free monads are a bunch of algebras that we can glue each other and then create those pipelines as DSLs.
 
 Free monads are meant to be used to separate strucuture and behave on your program, that´s why your DSL always need
 an interpreter that understand and give behave of the strucutre of it.
