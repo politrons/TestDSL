@@ -33,7 +33,7 @@ trait Actions extends Algebras {
       free.flatMap(any => liftF[Action, Any](_Action(action, newAny)))
     }
 
-    def runScenario = free.foldMap(scenario)
+    def runScenario: Id[Any] = free.foldMap(scenario)
   }
 
   def scenario: Action ~> Id
