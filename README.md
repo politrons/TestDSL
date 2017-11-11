@@ -70,9 +70,9 @@ runScenario
 
 To see examples using the same DSL for:
 
-*[Future](src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala)
-*[Option](src/test/scala-2.11/com/politrons/dsl/OptionExampleIT.scala)
-*[Either](src/test/scala-2.11/com/politrons/dsl/EitherExampleIT.scala)
+* [Future](src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala)
+* [Option](src/test/scala-2.11/com/politrons/dsl/OptionExampleIT.scala)
+* [Either](src/test/scala-2.11/com/politrons/dsl/EitherExampleIT.scala)
 
 
 
