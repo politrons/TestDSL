@@ -66,7 +66,7 @@ Finally to run our pipeline to be used by the interpreter we need to add the run
 runScenario
 ```
 
-## Re-use the DSL with multiple interpreters
+## Re-use DSL with multiple interpreters
 
 To see examples using the same DSL for:
 
