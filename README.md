@@ -66,5 +66,13 @@ Finally to run our pipeline to be used by the interpreter we need to add the run
 runScenario
 ```
 
+## Re-use the DSL with multiple interpreters
+
+To see examples using the same DSL for:
+
+*[Future](src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala)
+*[Option](src/test/scala-2.11/com/politrons/dsl/OptionExampleIT.scala)
+*[Either](src/test/scala-2.11/com/politrons/dsl/EitherExampleIT.scala)
+
 
 

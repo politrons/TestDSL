@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a8180f-3e0e-4e01-a68e-a1eaa390a100" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/EitherExampleIT.scala" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/politrons/dsl/Actions$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/politrons/dsl/Actions$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/politrons/dsl/Actions.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/politrons/dsl/Actions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/politrons/dsl/ExampleIT$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/politrons/dsl/ExampleIT$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/politrons/dsl/ExampleIT.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/com/politrons/dsl/ExampleIT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/OptionExampleIT.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Actions.scala" afterPath="$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Actions.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/target/scala-2.12/" />
     <ignored path="$PROJECT_DIR$/target/streams/" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="ExampleIT.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/ExampleIT.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="137">
+              <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,20 +61,92 @@
       <file leaf-file-name="FutureExampleIT.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="77">
+              <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
               <folding>
-                <element signature="e#27#57#0" expanded="true" />
+                <element signature="e#27#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actions.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Actions.scala">
+      <file leaf-file-name="EitherExampleIT.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/EitherExampleIT.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="212">
+              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding>
+                <element signature="e#27#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="Gfm">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="68" column="44" lean-forward="false" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="115" column="6" lean-forward="false" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EitherT.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.2.14-sources.jar!/scalaz/EitherT.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="216" column="7" lean-forward="false" selection-start-line="216" selection-start-column="7" selection-end-line="216" selection-end-column="7" />
+              <folding>
+                <element signature="e#16#50#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionExampleIT.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/OptionExampleIT.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="e#27#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringLike.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/StringLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="243" column="6" lean-forward="false" selection-start-line="243" selection-start-column="6" selection-end-line="243" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#578#618#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Regex.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/util/matching/Regex.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="169" column="6" lean-forward="false" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -85,37 +155,24 @@
       <file leaf-file-name="TestDSL.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/TestDSL.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="Gfm">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Algebras.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Algebras.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <folding>
+                <element signature="e#27#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Any</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>T</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,12 +205,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Algebras.scala" />
         <option value="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/ExampleIT.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Algebras.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/TestDSL.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala" />
         <option value="$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Actions.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/OptionExampleIT.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/EitherExampleIT.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -348,11 +407,62 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.ExampleIT">
+  <component name="RunManager" selected="ScalaTest.EitherExampleIT">
     <configuration default="false" name="ExampleIT" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="testdsl" />
       <setting name="path" value="com.politrons.dsl.ExampleIT" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FutureExampleIT" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="testdsl" />
+      <setting name="path" value="com.politrons.dsl.FutureExampleIT" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="OptionExampleIT" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="testdsl" />
+      <setting name="path" value="com.politrons.dsl.OptionExampleIT" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="EitherExampleIT" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="testdsl" />
+      <setting name="path" value="com.politrons.dsl.EitherExampleIT" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -1030,12 +1140,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExampleIT" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.FutureExampleIT" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.OptionExampleIT" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.EitherExampleIT" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ExampleIT" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.EitherExampleIT" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.OptionExampleIT" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.FutureExampleIT" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ExampleIT" />
       </list>
     </recent_temporary>
   </component>
@@ -1090,7 +1206,7 @@
       <updated>1509907611839</updated>
       <workItem from="1509907621294" duration="1553000" />
       <workItem from="1509986867946" duration="1297000" />
-      <workItem from="1510224733348" duration="5800000" />
+      <workItem from="1510224733348" duration="9917000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1509907943718</created>
@@ -1183,31 +1299,50 @@
       <option name="project" value="LOCAL" />
       <updated>1510255539495</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactor">
+      <created>1510255598450</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1510255598450</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleIT - 2017.11.05 at 19h 50m 52s.xml">
-      <configuration name="ExampleIT" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EitherExampleIT - 2017.11.11 at 20h 57m 49s.xml">
+      <configuration name="EitherExampleIT" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExampleIT - 2017.11.09 at 13h 06m 07s.xml">
-      <configuration name="ExampleIT" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="EitherExampleIT - 2017.11.11 at 20h 58m 41s.xml">
+      <configuration name="EitherExampleIT" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExampleIT - 2017.11.09 at 13h 07m 59s.xml">
-      <configuration name="ExampleIT" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FutureExampleIT - 2017.11.11 at 14h 44m 15s.xml">
+      <configuration name="FutureExampleIT" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExampleIT - 2017.11.09 at 13h 22m 24s.xml">
-      <configuration name="ExampleIT" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FutureExampleIT - 2017.11.11 at 14h 44m 43s.xml">
+      <configuration name="FutureExampleIT" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExampleIT - 2017.11.09 at 20h 25m 07s.xml">
-      <configuration name="ExampleIT" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FutureExampleIT - 2017.11.11 at 14h 45m 31s.xml">
+      <configuration name="FutureExampleIT" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ExampleIT - 2017.11.09 at 20h 26m 25s.xml">
-      <configuration name="ExampleIT" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="FutureExampleIT - 2017.11.11 at 14h 46m 33s.xml">
+      <configuration name="FutureExampleIT" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FutureExampleIT - 2017.11.11 at 14h 49m 41s.xml">
+      <configuration name="FutureExampleIT" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FutureExampleIT - 2017.11.11 at 15h 00m 16s.xml">
+      <configuration name="FutureExampleIT" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="FutureExampleIT - 2017.11.11 at 15h 01m 12s.xml">
+      <configuration name="FutureExampleIT" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OptionExampleIT - 2017.11.11 at 20h 45m 22s.xml">
+      <configuration name="OptionExampleIT" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8650000" />
+    <option name="totallyTimeSpent" value="12767000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1235,7 +1370,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1271,7 +1406,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Actions.scala</url>
+          <line>15</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1299,7 +1443,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="37" column="84" lean-forward="false" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
-          <folding />
+          <folding>
+            <element signature="e#27#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1311,55 +1457,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="Gfm">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Algebras.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        <state relative-caret-position="285">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Algebras.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.1-sources.jar!/org/scalatest/OutcomeOf.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="527">
+          <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Actions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/TestDSL.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="e#27#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/util/matching/Regex.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="169" column="6" lean-forward="false" selection-start-line="169" selection-start-column="6" selection-end-line="169" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/immutable/StringLike.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="218">
+          <caret line="243" column="6" lean-forward="false" selection-start-line="243" selection-start-column="6" selection-end-line="243" selection-end-column="6" />
           <folding>
-            <element signature="e#27#57#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#578#618#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/ExampleIT.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala-2.11/com/politrons/dsl/Actions.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/FutureExampleIT.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="77">
+          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="e#27#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/OptionExampleIT.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#27#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.2.14-sources.jar!/scalaz/EitherT.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="216" column="7" lean-forward="false" selection-start-line="216" selection-start-column="7" selection-end-line="216" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="115" column="6" lean-forward="false" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala-2.11/com/politrons/dsl/EitherExampleIT.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="e#27#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="Gfm">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="68" column="44" lean-forward="false" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
           <folding />
         </state>
       </provider>
